@@ -1,5 +1,5 @@
 import React from 'react'
-import Item from"../item/Item"
+import Item from '../item/item'
 
 
 
@@ -15,4 +15,4 @@ const ItemList = ({items}) => {
   )
 }
 
-export default ItemList
+export default ItemList;
