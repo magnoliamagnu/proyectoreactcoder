@@ -20,15 +20,11 @@ function App() {
 
            <Route path="/" element={<ItemListContainer greeting={"Ropa Vintage"}/>} /> 
 
-           <Route path="/tienda" element={<ItemListContainer greeting={"Ropa Vintage"}/>} />
+           <Route path="/itemDetail" element={<ItemListContainer greeting={"Ropa Vintage"}/>} />
 
-            <Route path="/category/:id" element={<ItemListContainer/>} />        
+            <Route path="/itemDetail" element={<ItemListContainer/>} />        
 
             <Route path="/itemDetail/:id" element={<ItemDetailContainer/>} />
-
-            <Route path="/checkout" element={<Form/>}/>
-
-            <Route path="/formik" element={<FormikFormulario/>}/>
 
             <Route path="/cart" element={<Cart/>}/>   
              
