@@ -1,0 +1,13 @@
+.cart__widget {
+    display: flex;
+    align-items: center;
+}
+
+.cart__widget span {
+    color: white;
+    padding: 5px;
+    background-color: #EF7810;
+    border-radius: 50%;
+    font-size: x-small;
+    text-decoration: none;
+}

@@ -1,0 +1,41 @@
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+.cards__products {
+    background-color: white;
+    width: 300px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem;
+    margin: 1rem; }
+  
+  .cards__products h3 {
+    text-align: center;
+    font-size: large; }
+  
+  .cards__products p {
+    text-align: center;
+    font-size: 12px; }
+  
+  .cards__products button {
+    border: none;
+    background-color: #EF7810;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 10px; }
+  
+  .cards__img {
+    width: 130px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.49));
+    padding: 1rem; }
+
+    .button__detalles {
+      text-decoration: none;
+      color: white;
+    }
