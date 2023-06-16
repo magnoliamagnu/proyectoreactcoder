@@ -18,13 +18,17 @@ function App() {
 
          <Routes>
 
-           <Route path="/" element={<ItemListContainer greeting={"Ropa Vintage"}/>} /> 
+           <Route path="/" element={<ItemListContainer greeting={"Tienda de moviles"}/>} /> 
 
-           <Route path="/itemDetail" element={<ItemListContainer greeting={"Ropa Vintage"}/>} />
+           <Route path="/tienda" element={<ItemListContainer greeting={"Tienda de moviles"}/>} />
 
-            <Route path="/itemDetail" element={<ItemListContainer/>} />        
+            <Route path="/category/:id" element={<ItemListContainer/>} />        
 
             <Route path="/itemDetail/:id" element={<ItemDetailContainer/>} />
+
+            <Route path="/checkout" element={<Form/>}/>
+
+            <Route path="/formik" element={<FormikFormulario/>}/>
 
             <Route path="/cart" element={<Cart/>}/>   
              
@@ -38,4 +42,5 @@ function App() {
 }
 
 export default App;
+
 
